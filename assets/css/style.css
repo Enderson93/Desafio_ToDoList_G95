@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 5% 20%;
+    padding: 0;
+}
+.titulo{
+    border-bottom: solid 1px gray;
+}
+h1 {
+    text-align: start;
+    color: #008cff;
+}
+
+.nuevaTarea{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+margin: 15px 0
+}
+input {
+    width: 80%;
+    height: 20px;
+}
+.btnAgregar{
+    background-color: #008cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+
+.tareas {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.listaDeTareas{
+    width: 70%;
+}
+table {
+    border: none;
+        width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: none;
+    padding: 12px;
+    text-align: start;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
